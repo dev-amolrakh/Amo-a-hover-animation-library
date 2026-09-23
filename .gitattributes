@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+*.html linguist-language=HTML
