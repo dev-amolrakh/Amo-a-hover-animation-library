@@ -1,4 +1,6 @@
-# Amo - Hover Animation Library
+# Amo — Hover Animation Library
+
+**Live Demo:** https://amo-hover.vercel.app/
 
 Amo is a CSS-first hover animation library for polished web micro-interactions. It provides reusable effects for **buttons, cards, text, icons, images, navigation links, badges, and list items**, with a standalone interactive showcase.
 
@@ -150,9 +152,9 @@ JavaScript is reserved for interactions that depend on pointer position or dynam
 
 The project follows semantic-versioning conventions for public releases:
 
-- **MAJOR** - breaking class/API changes
-- **MINOR** - new effects or backwards-compatible features
-- **PATCH** - bug fixes and documentation improvements
+- **MAJOR** — breaking class/API changes
+- **MINOR** — new effects or backwards-compatible features
+- **PATCH** — bug fixes and documentation improvements
 
 ## Contributing
 
