@@ -1,4 +1,4 @@
-# Amo — Hover Animation Library
+# Amo - Hover Animation Library
 
 **Live Demo:** https://amo-hover.vercel.app/
 
@@ -42,7 +42,7 @@ amo-hover-library/
 ### 1. Include the library
 
 ```html
-<link rel="stylesheet" href="src/amo.css">
+<link rel="stylesheet" href="src/amo.css" />
 <script src="src/amo.js" defer></script>
 ```
 
@@ -64,7 +64,7 @@ The library is intentionally class-based. The `fx-*` class selects the button ef
   --on: #fffdf8;
   --dur: 550ms;
   --radius: 999px;
-  --ease: cubic-bezier(.65, .05, .25, 1);
+  --ease: cubic-bezier(0.65, 0.05, 0.25, 1);
   --t: var(--dur) var(--ease);
 }
 ```
@@ -73,16 +73,16 @@ The same CSS-variable approach is used across the component families. Some effec
 
 ## Component families
 
-| Family | Base class | Effect prefix | Example |
-|---|---|---|---|
-| Buttons | `.btn` | `.fx-*` | `.fx-radial` |
-| Cards | `.cd` | `.cd-*` | `.cd-lift` |
-| Text | `.tx` | `.tx-*` | `.tx-highlight` |
-| Icons | `.icon` | `.ic-*` | `.ic-spin` |
-| Images | `.img` | `.im-*` | `.im-zoom-in` |
-| Navigation | `.nav-link` | `.nv-*` | `.nv-underline` |
-| Badges | `.badge` | `.bd-*` | `.bd-glow` |
-| List items | `.list-item` | `.li-*` | `.li-border` |
+| Family     | Base class   | Effect prefix | Example         |
+| ---------- | ------------ | ------------- | --------------- |
+| Buttons    | `.btn`       | `.fx-*`       | `.fx-radial`    |
+| Cards      | `.cd`        | `.cd-*`       | `.cd-lift`      |
+| Text       | `.tx`        | `.tx-*`       | `.tx-highlight` |
+| Icons      | `.icon`      | `.ic-*`       | `.ic-spin`      |
+| Images     | `.img`       | `.im-*`       | `.im-zoom-in`   |
+| Navigation | `.nav-link`  | `.nv-*`       | `.nv-underline` |
+| Badges     | `.badge`     | `.bd-*`       | `.bd-glow`      |
+| List items | `.list-item` | `.li-*`       | `.li-border`    |
 
 ## Pointer-aware effects
 
@@ -152,9 +152,9 @@ JavaScript is reserved for interactions that depend on pointer position or dynam
 
 The project follows semantic-versioning conventions for public releases:
 
-- **MAJOR** — breaking class/API changes
-- **MINOR** — new effects or backwards-compatible features
-- **PATCH** — bug fixes and documentation improvements
+- **MAJOR** - breaking class/API changes
+- **MINOR** - new effects or backwards-compatible features
+- **PATCH** - bug fixes and documentation improvements
 
 ## Contributing
 
